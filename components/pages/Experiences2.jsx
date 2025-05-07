@@ -160,7 +160,7 @@ const Experiences2 = () => {
           <div className="w-full">
             <div className="flex items-center justify-start md:justify-end">
               <div className="bg-[#D9D9D9] hover:bg-white text-[#050922] text-sm font-semibold w-fit px-2 py-1 mb-2 md:mb-0 rounded-md">
-                2025 - Current
+                2024 - Current
               </div>
               <Image
                 src="/icons/arrow-fill-white.svg"

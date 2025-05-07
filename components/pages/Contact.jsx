@@ -3,8 +3,8 @@ import { motion as m } from 'framer-motion';
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-full h-[500px] md:h-[600px] bg-[#121B42] md:bg-[url('/images/map.png')] bg-cover relative">
-      <div className='w-full h-full bg-black/[.2] py-16 md:py-20'>
+    <div id="contact" className="w-full h-[500px] md:h-[600px] bg-[#121B42] md:bg-[url('/images/contact-bg.png')] bg-cover relative">
+      <div className='w-full h-full bg-black/[.4] py-16 md:py-20'>
         <div className='container mx-auto flex flex-col justify-between h-full'>
           <div>
             <m.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0, duration:1}} className='flex items-center gap-4 mb-8'>
@@ -51,7 +51,7 @@ const Contact = () => {
       <img
         src='/icons/pin.svg'
         alt='pin icon'
-        className='absolute max-sm:hidden md:top-24 md:right-16 lg:top-[290px] lg:right-[410px]'
+        className='absolute max-sm:hidden md:top-24 md:right-8 lg:top-[240px] lg:right-[330px]'
       />
     </div>
   );

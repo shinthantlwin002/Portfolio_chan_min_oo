@@ -10,7 +10,7 @@ const Hero = () => {
     <div className="bg-[#050922] max-md:pb-10 lg:h-screen overflow-y-hidden">
       <Navbar />
 
-      <div className="container flex flex-col items-center gap-10 lg:flex-row h-full pt-32 lg:pt-10">
+      <div className="container flex flex-col items-center lg:flex-row h-full pt-32 lg:pt-10">
         {/* left content */}
         <div className="flex items-center gap-6 lg:gap-10 w-full lg:w-[60%]">
           <div className="bg-[#D9D9D9] w-2 h-96 md:h-80 shadow-[0px_0px_20px_4px_rgba(200,221,235,1)] shadow-white rounded-full"></div>
@@ -21,7 +21,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0, duration: 1 }}
             >
-              Reliable Data and CRM Management <br /> With
+              Reliable Data and Management <br /> With
               <FlipWords words={words} className={cn("font-bold text-white text-wrap")} />
             </m.h1>
             <m.p
@@ -51,7 +51,7 @@ const Hero = () => {
         {/* left content end */}
 
         {/* right content  */}
-        {/* <m.div
+        <m.div
           className="w-full lg:w-[40%] min-h-[400px] lg:min-h-full relative"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -65,28 +65,11 @@ const Hero = () => {
             className="absolute top-[26%] right-0 md:right-40 lg:right-10"
           />
           <Image
-            src="/images/shin.png"
-            alt="shin thant lwin"
-            width="500"
-            height="500"
+            src="/images/hero-img.png"
+            alt="chan min oo"
+            width="900"
+            height="900"
             className="absolute bottom-0 right-0 md:right-28 lg:right-0"
-          />
-        </m.div> */}
-        <m.div
-          initial={{ y: 10 }}
-          animate={{ y: [10, 0, 10] }} // Cycling between two values
-          transition={{
-            duration: 2, // Adjust speed of bounce
-            repeat: Infinity, // Infinite bounce
-            repeatType: "reverse", // Reverses the motion smoothly
-            ease: "easeInOut", // Makes it smoother
-          }}
-        >
-          <img
-            src="/icons/data-entry-hero.svg"
-            alt="check-circle"
-            width={500}
-            height={500}
           />
         </m.div>
         {/* right content end */}

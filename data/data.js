@@ -132,17 +132,17 @@ export const skills = {
       percentage: "80",
     },
     {
-      title: "HTML",
+      title: "Business strategy",
       percentage: "70",
     },
     {
-      title: "CSS",
+      title: "Budgeting and cost control",
       percentage: "80",
     },
     {
-      title: "Photography",
+      title: "Project management",
       percentage: "60",
-    }
+    },
   ],
   language: [
     {

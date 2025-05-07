@@ -89,7 +89,7 @@ const Certifications = () => {
             </div>
             <div className="w-full">
               <h1 className="text-2xl font-semibold mb-4 text-start text-[#FCFFFF]">
-                Diploma in MBA
+                Diploma in MBA at WISE Collage University
               </h1>
               <p className="text-start text-[#D9D9D9]">
                 I pursued a Diploma in MBA from 2018 to 2019. This program
@@ -111,7 +111,7 @@ const Certifications = () => {
           >
             <div className="w-full">
               <h1 className="text-2xl font-semibold mb-4 text-start md:text-end text-[#FCFFFF]">
-                Diploma in Computer Science
+                Diploma in Computer Science at British United College
               </h1>
               <p className="text-start md:text-end text-[#D9D9D9]">
                 In 2023, I began exploring the tech field by enrolling in a
@@ -178,7 +178,7 @@ const Certifications = () => {
             </div>
             <div className="w-full">
               <h1 className="text-2xl font-semibold mb-4 text-start text-[#FCFFFF]">
-                Bachelor’s Degree in Computer Science
+                Bachelor’s Degree in Computer Science at British United Collage
               </h1>
               <p className="text-start text-[#D9D9D9]">
                 Currently, I am pursuing a Bachelor’s degree in Computer Science
