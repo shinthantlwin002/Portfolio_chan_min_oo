@@ -5,24 +5,24 @@ import { cn } from "@/lib/utils";
 import { motion as m } from "framer-motion";
 
 const Hero = () => {
-  const words = ["chan min oo", "Data Entry/Data Manager"];
+  const words = ["chan min oo", "Data Entry / Data Manager"];
   return (
-    <div className="bg-[#050922] lg:h-screen overflow-y-hidden">
+    <div className="bg-[#050922] max-md:pb-10 lg:h-screen overflow-y-hidden">
       <Navbar />
 
       <div className="container flex flex-col items-center gap-10 lg:flex-row h-full pt-32 lg:pt-10">
         {/* left content */}
         <div className="flex items-center gap-6 lg:gap-10 w-full lg:w-[60%]">
-          <div className="bg-[#D9D9D9] w-2 h-80 shadow-[0px_0px_20px_4px_rgba(200,221,235,1)] shadow-white rounded-full"></div>
+          <div className="bg-[#D9D9D9] w-2 h-96 md:h-80 shadow-[0px_0px_20px_4px_rgba(200,221,235,1)] shadow-white rounded-full"></div>
           <div>
             <m.h1
-              className="text-white text-xl lg:text-4xl font-regular mb-8 uppercase"
+              className="text-white text-lg md:text-xl lg:text-4xl font-regular mb-8 uppercase max-md:min-h-[120px]"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0, duration: 1 }}
             >
               Reliable Data and CRM Management <br /> With
-              <FlipWords words={words} className={cn("font-bold text-white")} />
+              <FlipWords words={words} className={cn("font-bold text-white text-wrap")} />
             </m.h1>
             <m.p
               className="text-[#D9D9D9] text-sm lg:text-base mb-10"
