@@ -7,7 +7,7 @@ import { motion as m } from "framer-motion";
 const Hero = () => {
   const words = ["chan min oo", "Data Entry / Data Manager"];
   return (
-    <div className="bg-[#050922] max-md:pb-10 lg:h-screen overflow-y-hidden">
+    <div className="bg-[#050922] lg:h-screen overflow-y-hidden">
       <Navbar />
 
       <div className="container flex flex-col items-center lg:flex-row h-full pt-32 lg:pt-10">
@@ -22,7 +22,10 @@ const Hero = () => {
               transition={{ delay: 0, duration: 1 }}
             >
               Reliable Data and Management <br /> With
-              <FlipWords words={words} className={cn("font-bold text-white text-wrap")} />
+              <FlipWords
+                words={words}
+                className={cn("font-bold text-white text-wrap")}
+              />
             </m.h1>
             <m.p
               className="text-[#D9D9D9] text-sm lg:text-base mb-10"
@@ -64,12 +67,10 @@ const Hero = () => {
             height="400"
             className="absolute top-[26%] right-0 md:right-40 lg:right-10"
           />
-          <Image
+          <img
             src="/images/hero-img.png"
             alt="chan min oo"
-            width="900"
-            height="900"
-            className="absolute bottom-0 right-0 md:right-28 lg:right-0"
+            className="absolute bottom-0 right-0 md:right-28 lg:right-0 max-md:min-w-[310px]"
           />
         </m.div>
         {/* right content end */}

@@ -19,7 +19,7 @@ const Skills = () => {
     setActiveTab(3);
   };
   return (
-    <div className='py-20 container mx-auto bg-[#121B42]'>
+    <div className='pt-20 pb-40 container mx-auto bg-[#121B42]'>
       {/* header */}
       <div className='flex flex-col items-center'>
         <m.h1 className='text-3xl text-center mb-2 text-[#FCFFFF] font-bold uppercase' initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0, duration:1}}>
