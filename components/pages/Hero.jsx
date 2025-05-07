@@ -45,7 +45,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6, duration: 1 }}
             >
-              <a href="/files/CV.pdf" download="CV.pdf">
+              <a href="/files/CMO.pdf" download="CV.pdf">
                 Download CV
               </a>
             </m.button>
